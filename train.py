@@ -1,6 +1,7 @@
 # Read the Dataset
 import pandas as pd
-df = pd.read_csv('./data/raw/drug200.csv')
+df = pd.read_csv("./data/raw/drug200.csv", delimiter="\t")
+
 # Information about the dataset
 df.info()
 # Shape of the Dataset
